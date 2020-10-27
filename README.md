@@ -1,18 +1,42 @@
-# Getting Started with Create React App
+# Fresco
+
+It is a drawing application. User can create project with title and description. Project represent workspace with grid of the Business Model Canvas and toolbar. Toolbar provide next tools: sticky notes, brush.
+
+# Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+For run this project clone this [repository](https://github.com/eganichev/Fresco_front) enter in folder with app and run next commands
 
-In the project directory, you can run:
+### `yarn install`
+
+(if using yarn package manager) or
+
+### `npm install`
+
+(if using node package manager).
+
+This commands is used to install all dependencies for a project.
+
+Then run
 
 ### `yarn start`
 
-Runs the app in the development mode.\
+(if using yarn package manager) or
+
+### `npm run start`
+
+(if using node package manager).
+
+This commands runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+## Available Scripts
+
+Also, in the project directory, you can run:
 
 ### `yarn test`
 
