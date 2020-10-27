@@ -1,0 +1,6 @@
+export const LOG_IN = "LOG_IN";
+export const CREATE_PROJECT = "CREATE_PROJECT";
+export const SET_ACTIVE_PROJECT = "SET_ACTIVE_PROJECT";
+export const SAVE_PICTURE = "SAVE_PICTURE";
+export const SET_HEADER_SIZE = "SET_HEADER_SIZE";
+export const SET_TOOLBAR_SIZE = "SET_TOOLBAR_SIZE";

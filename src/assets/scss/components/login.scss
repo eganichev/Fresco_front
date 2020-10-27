@@ -1,0 +1,92 @@
+.login {
+  width: 360px;
+  margin: 50px auto;
+
+  border: 1px solid $gray;
+  border-radius: $border-radius;
+}
+
+.login__header,
+.login__content {
+  padding: 20px 30px;
+}
+
+.login__header {
+  background-color: $blue;
+}
+
+.login__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__title {
+  font-size: $font-size-400;
+  text-transform: uppercase;
+  color: $white;
+  text-align: center;
+}
+
+.login__subtitle {
+  margin-bottom: 25px;
+
+  font-weight: 600;
+  color: $gray-dark;
+  text-align: center;
+}
+
+.login__btn {
+  align-self: center;
+  display: flex;
+  align-items: center;
+
+  padding: 10px 15px;
+
+  font-family: inherit;
+
+  background: none;
+  border: 1px solid $gray;
+  border-radius: $border-radius;
+  cursor: pointer;
+
+  transition: background 0.3s linear, color 0.3s linear;
+
+  &:focus {
+    outline: 0;
+  }
+
+  &:hover {
+    color: $white;
+
+    outline: 0;
+    background-color: $blue;
+  }
+
+  &:hover .login__icon {
+    color: $white;
+  }
+}
+
+.login__text,
+.login__icon {
+  margin: 0 8px;
+}
+
+.login__text {
+  font-size: $font-size-300;
+}
+
+.login__icon {
+  font-size: $font-size-700;
+  color: $red;
+
+  transition: color 0.3s linear;
+}
+
+.login__note {
+  margin-top: 25px;
+
+  color: $gray-dark;
+  text-align: justify;
+  font-size: $font-size-100;
+}

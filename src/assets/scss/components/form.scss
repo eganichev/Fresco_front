@@ -1,0 +1,32 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__controll {
+  margin: 15px 0;
+}
+
+.form__item {
+  width: 100%;
+  padding: 15px 10px;
+
+  font-family: inherit;
+  font-size: inherit;
+
+  border-radius: $border-radius;
+  border: 1px solid $gray-dark;
+
+  &--textarea {
+    height: 160px;
+  }
+
+  &:focus {
+    outline: 0;
+    box-shadow: 0 0 8px $blue-shadow;
+  }
+
+  &:hover {
+    outline: 0;
+  }
+}

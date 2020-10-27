@@ -1,0 +1,35 @@
+.toolbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: $azure;
+  box-shadow: 3px 0 5px RGB(0 0 0 / 0.5);
+}
+
+.toolbar__btn {
+  width: 100%;
+  padding: 16px 12px;
+
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $blue-secondary;
+  }
+}
+
+.toolbar__btn:hover,
+.toolbar__btn:focus {
+  outline: 0;
+}
+
+.toolbar__icon {
+  font-size: 32px;
+  color: $white;
+}
+
+.selected {
+  background-color: $blue-secondary;
+}
